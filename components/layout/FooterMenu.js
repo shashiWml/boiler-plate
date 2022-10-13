@@ -1,4 +1,5 @@
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
+import Link from 'next/link';
 import React from 'react';
 
 export default function FooterMenu() {
@@ -9,22 +10,30 @@ export default function FooterMenu() {
           <li>
             <a href="#" className="border-b border-purple-500">ABOUT</a>
           </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-5">Our Story</a>
-            <ArrowUpRightIcon className="h-4 mt-5" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Contact Us</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Careers</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Privacy Policy</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
+          <Link href="/about-us">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-5">Our Story</a>
+              <ArrowUpRightIcon className="h-4 mt-5" />
+            </li>
+          </Link>
+          <Link href="/contact-us">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Contact Us</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
+          <Link href="/careers">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Careers</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
+          <Link href="/privacy-policy">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Privacy Policy</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
         </ul>
       </div>
       <div className="col-span-1">
