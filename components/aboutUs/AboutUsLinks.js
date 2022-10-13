@@ -45,7 +45,7 @@ export default function AboutUsLinks() {
             return (
               <li className="text-center text-lg items-center" key={id}>
                 <Link href={href}>
-                  <a className={`${router.asPath.includes(value) ? 'underline' : ''} "hover:text-purple-500 hover:border-b hover:border-gray-800"`}>
+                  <a className={`${router.asPath.includes(value) ? 'underline hover:text-purple-500 text-base' : 'hover:text-purple-500 hover:border-b hover:border-gray-800 text-base'}`}>
                     {name}
                   </a>
                 </Link>
@@ -53,26 +53,6 @@ export default function AboutUsLinks() {
             );
           })}
         </ul>
-        {/* <ul className="flex justify-center ml-3 space-x-6 mt-6">
-          <Link href="/privacy-policy">
-            <li className="text-center text-lg items-center">
-              <a href="#" className="hover:text-purple-500 hover:border-b hover:border-gray-800">Privacy Policy</a>
-            </li>
-          </Link>
-          <Link href="/careers">
-            <li className="text-center text-lg items-center">
-              <a href="#" className="hover:text-purple-500 hover:border-b hover:border-gray-800">Careers</a>
-            </li>
-          </Link>
-          <Link href="/contact-us">
-            <li className="text-center text-lg items-center">
-              <a href="#" className="hover:text-purple-500 hover:border-b hover:border-gray-800">ContactUs</a>
-            </li>
-          </Link>
-          <li className="text-center text-lg items-center">
-            <a href="#" className="hover:text-purple-500 hover:border-b hover:border-gray-800 ">AboutUs</a>
-          </li>
-        </ul> */}
       </div>
     </div>
   );
