@@ -41,22 +41,30 @@ export default function FooterMenu() {
           <li>
             <a href="#" className="border-b border-purple-500">SUPPORT</a>
           </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-5">Payments</a>
-            <ArrowUpRightIcon className="h-4 mt-5" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Returns/Exchange</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Shipment</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Terms and Conditions</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
+          <Link href="/payments">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-5">Payments</a>
+              <ArrowUpRightIcon className="h-4 mt-5" />
+            </li>
+          </Link>
+          <Link href="/returns-exchange">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Returns/Exchange</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
+          <Link href="/shipment">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Shipment</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
+          <Link href="/terms-conditions">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Terms and Conditions</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
         </ul>
       </div>
       <div className="col-span-1">
