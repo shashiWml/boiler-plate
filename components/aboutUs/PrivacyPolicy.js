@@ -1,10 +1,36 @@
+import { Switch } from '@headlessui/react';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function PrivacyPolicy() {
+  const [enabled, setEnabled] = useState(false);
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9">
+      <div className="py-16">
+        <p className="text-xl text-blue-600">
+          Normal Mode
+        </p>
+        <Switch
+          checked={enabled}
+          onChange={setEnabled}
+          className={`${enabled ? 'bg-blue-900' : 'bg-blue-700'}
+        relative inline-flex h-[38px] w-[74px] shrink-0 cursor-pointer rounded-full
+        border-2 border-transparent transition-colors duration-200 ease-in-out
+        focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
+        >
+          <span className="sr-only">
+            Use Setting
+          </span>
+          <span
+            aria-hidden="true"
+            className={`${enabled ? 'translate-x-9' : 'translate-x-0'}
+          pointer-events-none inline-block h-[34px] w-[34px] transform
+          rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out`}
+          />
+        </Switch>
+        <p className="text-xl text-blue-600">Dark Mode</p>
+      </div>
+      <div className="dark:bg-black dark:text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9">
         <img
           className="mt-9 h-[700px] w-[700px]"
           src="https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/60d2fab6a4cdda932e5275d5/webp/static-page-banner-1366x1376.jpg"
@@ -18,27 +44,40 @@ export default function PrivacyPolicy() {
             </p>
           </div>
         </div>
-        <div className="mx-96 w-full">
+        <div className="lg:mx-96 md:mx-42 mx-24 w-full">
           <h1 className="font-extrabold  text-justify mx-auto  mt-7 text-2xl">
             Introduction
           </h1>
           <p className=" text-sm  mt-7 text-justify mx-auto ">
-            We value the trust you place in us. That's why we insist upon the highest standards for secure transactions and customer information privacy. Please read the following statement to learn about our information gathering and dissemination practices.
+            We value the trust you place in us. That's why we insist upon the highest standards
+            for secure transactions and customer information privacy. Please read the following
+            statement to learn about our information gathering and dissemination practices.
           </p>
           <p className=" text-sm  mt-3 text-justify mx-auto ">
-            Note: Our privacy policy is subject to change at any time without notice. To make sure you are aware of any changes, please review this policy periodically.
+            Note: Our privacy policy is subject to change at any time without notice. To make
+            sure you are aware of any changes, please review this policy periodically.
           </p>
           <p className=" text-sm  mt-3 text-justify mx-auto ">
-            By visiting this Website or mobile application you agree to be bound by the terms and conditions of this Privacy Policy. If you do not agree please do not use or access our Website.
+            By visiting this Website or mobile application you agree to be bound by the terms
+            and conditions of this Privacy Policy. If you do not agree please do not use or
+            access our Website.
           </p>
           <p className="text-sm  mt-3 text-justify mx-auto">
-            By mere use of the Website, you expressly consent to our use and disclosure of your personal information in accordance with this Privacy Policy. This Privacy Policy is incorporated into and subject to the Terms of Use.
+            By mere use of the Website, you expressly consent to our use and disclosure of your
+            personal information in accordance with this Privacy Policy. This Privacy Policy is
+            incorporated into and subject to the Terms of Use.
           </p>
           <h1 className="font-extrabold  text-justify mx-auto  mt-7 text-2xl">
             Collection of Personally Identifiable Information and other Information
           </h1>
           <p className=" text-sm  mt-7 text-justify mx-auto">
-            When you use our Website, we collect and store your personal information which is provided by you from time to time. Our primary goal in doing so is to provide you a safe, efficient, smooth and customized experience. This allows us to provide services and features that most likely meet your needs, and to customize our Website to make your experience safer and easier. More importantly, while doing so we collect personal information from you that we consider necessary for achieving this purpose.
+            When you use our Website, we collect and store your personal information which is
+            provided by you from time to time. Our primary goal in doing so is to provide you a
+            safe, efficient, smooth and customized experience. This allows us to provide
+            services and features that most likely meet your needs, and to customize our Website
+            to make your experience safer and easier. More importantly, while doing so we
+            collect personal information from you that we consider necessary for achieving this
+            purpose.
           </p>
           <p className="text-sm  mt-3 text-justify mx-auto">
             In general, you can browse the Website without telling us who you are or revealing any personal information about yourself. Once you give us your personal information, you are not anonymous to us. Where possible, we indicate which fields are required and which fields are optional. You always have the option to not provide information by choosing not to use a particular service or feature on the Website. We may automatically track certain information about you based upon your behaviour on our Website. We use this information to do internal research on our users' demographics, interests, and behaviour to better understand, protect and serve our users. This information is compiled and analysed on an aggregated basis. This information may include the URL that you just came from (whether this URL is on our Website or not), which URL you next go to (whether this URL is on our Website or not), your computer browser information, and your IP address. We use data collection devices such as "cookies" on certain pages of the Website to help analyse our web page flow, measure promotional effectiveness, and promote trust and safety. "Cookies" are small files placed on your hard drive that assist us in providing our services. We offer certain features that are only available through the use of a "cookie". We also use cookies to allow you to enter your password less frequently during a session. Cookies can also help us provide information that is targeted to your interests. Most cookies are "session cookies," meaning that they are automatically deleted at the end of a session. You are always free to decline our cookies if your browser permits, although in that case you may not be able to use certain features on the Website and you may be required to re-enter your password more frequently during a session.
@@ -116,7 +155,7 @@ export default function PrivacyPolicy() {
             If you want to remove your contact information from all
             <span>
               <Link href="/">
-                <a className='text-blue-500 mx-1'>https://koovs.com</a>
+                <a className="text-blue-500 mx-1">https://koovs.com</a>
               </Link>
             </span>
             lists and newsletters, please email to us at hello@koovs.com
@@ -130,7 +169,7 @@ export default function PrivacyPolicy() {
           <p className="text-sm  mt-3 text-justify mx-auto">
             If we decide to change our privacy policy, we will post those changes on this page so that you are always aware of what information we collect, how we use it, and under what circumstances we disclose it.
           </p>
-          <div className="border-t-2 border-gray-700 mt-28 my-14 mx-24" />
+          <div className="dark:border-gray-50 border-t-2 border-gray-700 mt-28 my-14 mx-24" />
         </div>
       </div>
     </div>
