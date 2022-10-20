@@ -3,6 +3,7 @@ import { HeartIcon } from '@heroicons/react/24/outline';
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid';
 import parse from 'html-react-parser';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import MyViewProductDetail from './ViewProductDetail';
@@ -15,7 +16,9 @@ const accordianContent = [
   {
     id: 1,
     name: 'Size & Fit',
-    description: '<ul className="list-disc leading-7"><li>Oversized fit for a baggy, spacious feel</li><li className="cursor-pointer">Size Guide</li></ul>',
+    description: '<ul className="list-disc leading-7"><li>Oversized fit for a baggy, spacious feel</li></ul>',
+    link: '/womens-tops-asian-alpha',
+    linkText: 'Size Guide',
   },
   {
     id: 2,
@@ -35,8 +38,8 @@ const accordianContent = [
   {
     id: 5,
     name: 'Product Information',
-    description: '<p className="ml-0 mr-28 leading-7 mt-4">Declaration of Importer: Direct import by the individual customer</p><p className="ml-0 mr-28 leading-7 mt-8">Marketed by: Nike Global Trading B.V. Singapore Branch, 30 Pasir Panjang Road, #10-31/32, Mapletree Business City, Singapore 117 440</p><p className="ml-0 mr-28 leading-7 mt-2">Net Quantity: 1 Top</p>'
-  }
+    description: '<p className="ml-0 mr-28 leading-7 mt-4">Declaration of Importer: Direct import by the individual customer</p><p className="ml-0 mr-28 leading-7 mt-8">Marketed by: Nike Global Trading B.V. Singapore Branch, 30 Pasir Panjang Road, #10-31/32, Mapletree Business City, Singapore 117 440</p><p className="ml-0 mr-28 leading-7 mt-2">Net Quantity: 1 Top</p>',
+  },
 ];
 
 export default function ClothingPage() {
@@ -51,11 +54,83 @@ export default function ClothingPage() {
       />
       <div className="grid grid-cols-12">
         <div className="lg:col-span-7 col-span-1">
-          <img src="" alt="image" />
-          Dasas
+          <div className="mt-12 flex space-x-2 ml-12">
+            <div>
+              <Image
+                width="300"
+                height="400"
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0c5bb7ee-69c6-4ce2-b4c3-66ec08e98167/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+                alt="image"
+                className="px-4"
+              />
+            </div>
+            <div>
+
+              <Image
+                width="300"
+                height="400"
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e27876e8-ab84-4db4-9f20-b6009047e15e/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+                alt="image"
+              />
+            </div>
+          </div>
+          <div className="mt-2 flex space-x-2 ml-12">
+            <div>
+              <Image
+                width="300"
+                height="400"
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/05f2fc2f-9f07-4958-bdc6-931489153706/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+                alt="image"
+              />
+            </div>
+            <div>
+              <Image
+                width="300"
+                height="400"
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4223906f-ac28-4d57-815f-58aa1410878a/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+                alt="image"
+              />
+            </div>
+          </div>
+          <div className="mt-2 flex space-x-2 ml-12">
+            <div>
+              <Image
+                width="300"
+                height="400"
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4b6c6022-01c4-4030-8489-9cfaf0ca0caa/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+                alt="image"
+              />
+            </div>
+            <div>
+              <Image
+                width="300"
+                height="400"
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/72f535d3-b925-4404-bdf5-167ca9578fa9/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+                alt="image"
+              />
+            </div>
+          </div>
+          <div className="mt-2 flex space-x-2 ml-12">
+            <div>
+              <Image
+                width="300"
+                height="400"
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f5b9d414-8482-4a82-a636-5c0a79d99a41/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+                alt="image"
+              />
+            </div>
+            <div>
+              <Image
+                width="300"
+                height="400"
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4223906f-ac28-4d57-815f-58aa1410878a/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-gGzPT0.png"
+                alt="image"
+              />
+            </div>
+          </div>
         </div>
         <div className="lg:col-span-5 col-span-12 ">
-          <div className=''>
+          <div className="mt-12">
             <h1 className="text-left font-semibold text-3xl">Nike Sportswear Phoenix Fleece</h1>
             <h3 className="text-left text-lg">Women's Over-Oversized Crew-Neck Sweatshirt</h3>
             <h3 className="text-left text-lg mt-4">MRP : ₹3,795</h3>
@@ -169,6 +244,13 @@ export default function ClothingPage() {
                   <Disclosure.Panel as="dd" className="mt-2 pl-12">
                     <p className="text-base text-gray-800">
                       {parse(item.description)}
+                      <Link href={item.link}>
+                        <a>
+                          ●
+                          {' '}
+                          {item.linkText}
+                        </a>
+                      </Link>
                     </p>
                   </Disclosure.Panel>
                   <div className="border-t border-gray-300 mt-6 py-2 w-96" />
@@ -176,8 +258,36 @@ export default function ClothingPage() {
               )}
             </Disclosure>
           ))}
-
         </div>
+      </div>
+      <div className="mt-8 ml-60 mr-60 py-10">
+        <p className="text-xl">Explore the Nike Sportswear Phoenix Fleece Women's Over-Oversized Crew-Neck Sweatshirt</p>
+      </div>
+      <div className="mt-8 ml-14 mr-14">
+        <Image
+          width="1400"
+          height="700"
+          src="https://static.nike.com/a/images/t_prod/w_1920,c_limit,f_auto,q_auto/a771810d-8014-482b-829e-a12ea47ea33a/pdp.jpg"
+          alt="image"
+        />
+      </div>
+      <div className="mt-8 ml-60 mr-60 py-10">
+        <p className="text-xl">
+          Smooth on the outside and cosy on the inside, brushed fleece is our go-to sweatshirt material for colder temperatures.
+        </p>
+      </div>
+      <div className="mt-8 ml-14 mr-14">
+        <Image
+          width="1400"
+          height="700"
+          src="https://static.nike.com/a/images/t_prod/w_1920,c_limit,f_auto,q_auto/b346e869-e57b-4692-9073-e3870591cc72/pdp.jpg"
+          alt="image"
+        />
+      </div>
+      <div className="mt-8 ml-60 mr-60 py-20">
+        <p className="text-xl">
+          The elongated ribbing on the cuffs and hem provides extra comfort and structure.
+        </p>
       </div>
     </div>
   );

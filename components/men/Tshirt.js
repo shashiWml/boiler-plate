@@ -75,9 +75,9 @@ export default function Tshirt() {
           src={image}
           alt={heading}
         />
-        <h3 className="text-gray-500 text-center">{heading}</h3>
-        <h3 className="text-center">{subHeading}</h3>
-        <h4 className="text-center">
+        <h3 className="text-gray-500 text-center cursor-pointer">{heading}</h3>
+        <h3 className="text-center cursor-pointer">{subHeading}</h3>
+        <h4 className="text-center cursor-pointer">
           ₹
           {price}
         </h4>
@@ -97,6 +97,7 @@ export default function Tshirt() {
           <TshirtIcon Icon={ArrowDownIcon} title="Sort By" />
         </div>
         <div className="flex space-x-4">
+          <p className="cursor-pointer">showing 80 styles</p>
           <TshirtIcon Icon={BiDotsVertical} title="2" />
           <TshirtIcon Icon={BiDotsHorizontal} title="4" />
         </div>
