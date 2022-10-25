@@ -72,30 +72,40 @@ export default function FooterMenu() {
           <li>
             <a href="#" className="border-b border-purple-500">TOPBRANDS</a>
           </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-5">The Couture Club</a>
-            <ArrowUpRightIcon className="h-4 mt-5" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">SHU</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">BALL</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
+          <Link href="/the-couture-club">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-5">The Couture Club</a>
+              <ArrowUpRightIcon className="h-4 mt-5" />
+            </li>
+          </Link>
+          <Link href="/shu">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">SHU</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
+          <Link href="/ball">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">BALL</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
           <li className="flex">
             <a href="#" className="hover:text-purple-500 text-sm mt-4">Public Desire</a>
             <ArrowUpRightIcon className="h-4 mt-4" />
           </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Arkk Copenhagen</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Nike</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
+          <Link href="/arkk-copenhagen">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Arkk Copenhagen</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
+          <Link href="/nike">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Nike</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
           <li className="flex">
             <a href="#" className="hover:text-purple-500 text-sm mt-4">Koovs Sport</a>
             <ArrowUpRightIcon className="h-4 mt-4" />

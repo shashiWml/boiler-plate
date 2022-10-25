@@ -91,7 +91,7 @@ export default function Nike() {
       //   </h4>
       //   {icon}
       // </div>
-      <div className=" col-span-3 py-10">
+      <div className=" col-span-3 py-10" key={id}>
         <div className="">
           <div className="flex justify-end pr-10 relative top-6">
             {icon}
@@ -99,7 +99,7 @@ export default function Nike() {
           <img
             className="h-[300px] w-[300px]"
             src={image}
-            alt="image"
+            alt={heading}
           />
         </div>
         <h3 className="text-gray-500 text-center cursor-pointer text-sm">{heading}</h3>
@@ -123,7 +123,13 @@ export default function Nike() {
           <NikeIcon Icon={ArrowDownIcon} title="Sort By" />
         </div>
         <div className="flex space-x-4">
-          <p className="cursor-pointer text-sm">showing 8 styles</p>
+          <p className="cursor-pointer text-sm">
+            showing
+            {' '}
+            <b>8</b>
+            {' '}
+            styles
+          </p>
           <NikeIcon Icon={BiDotsVertical} title="2" />
           <NikeIcon Icon={BiDotsHorizontal} title="4" />
         </div>
