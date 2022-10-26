@@ -124,6 +124,126 @@ const data = [
     subHeading: 'VARSITY SWIM SHORT WITH ZIPS - WHITE',
     price: '2,990',
   },
+  {
+    id: 9,
+    icon: <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />,
+    image1: 'https://cdn1.storehippo.com/s/609230a6463cd1593a6b70f1/62f659d6646a31ee1e3cf06f/webp/spadeappliqueredvarsityjacket-red1_800x-jpg-2-600x800.webp',
+    image2: 'https://cdn2.storehippo.com/s/609230a6463cd1593a6b70f1/62f659d6f4010bee7a689763/webp/spadeappliqueredvarsityjacket-red7_800x-jpg-600x800.webp',
+    para1: 'ADD TO CART+',
+    para2: 'XS',
+    para3: 'S',
+    para4: 'M',
+    para5: 'L',
+    para6: 'XL',
+    heading: 'THE COUTURE CLUB',
+    subHeading: 'SPADE APPLIQUE RED VARSITY JACKET - RED',
+    price: '6,990',
+  },
+  {
+    id: 10,
+    icon: <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />,
+    image1: 'https://cdn2.storehippo.com/s/609230a6463cd1593a6b70f1/62f660f03ba2cdeee60a4300/webp/tccm20500029_800x-jpg-600x800.webp',
+    image2: 'https://cdn2.storehippo.com/s/609230a6463cd1593a6b70f1/62f660f0f4010bee7a694d6d/webp/photographicregularfitt-shirt-black8_800x-jpg-2-600x800.webp',
+    para1: 'ADD TO CART+',
+    para2: 'XS',
+    para3: 'S',
+    para4: 'M',
+    para5: 'L',
+    para6: 'XL',
+    heading: 'THE COUTURE CLUB',
+    subHeading: 'PHOTO GRAPHIC REGULAR FIT T-SHIRT - BLACK',
+    price: '2,990',
+  },
+  {
+    id: 11,
+    icon: <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />,
+    image1: 'https://cdn2.storehippo.com/s/609230a6463cd1593a6b70f1/62f66177f4010bee7a6958e6/webp/photographicregularfitt-shirt-white2_800x-jpg-2-600x800.webp',
+    image2: 'https://cdn2.storehippo.com/s/609230a6463cd1593a6b70f1/62f66178476422ef14667d34/webp/photographicregularfitt-shirt-white1_800x-jpg-600x800.webp',
+    para1: 'ADD TO CART+',
+    para2: 'XS',
+    para3: 'S',
+    para4: 'M',
+    para5: 'L',
+    para6: 'XL',
+    heading: 'THE COUTURE CLUB',
+    subHeading: 'PHOTO GRAPHIC REGULAR FIT T-SHIRT - WHITE',
+    price: '2,990',
+  },
+  {
+    id: 12,
+    icon: <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />,
+    image1: 'https://cdn2.storehippo.com/s/609230a6463cd1593a6b70f1/62f67d378b2e63581fd481c3/webp/cactusprintedpuffsleevehoodie-offwhite2_800x-jpg-600x800.webp',
+    image2: 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/62f67d378b2e63581fd481c0/webp/cactusprintedpuffsleevehoodie-offwhite5_800x-600x800.jpg',
+    para1: 'ADD TO CART+',
+    para2: 'XS',
+    para3: 'S',
+    para4: 'M',
+    para5: 'L',
+    para6: 'XL',
+    heading: 'THE COUTURE CLUB',
+    subHeading: 'CACTUS PRINTED PUFF SLEEVE HOODIE - OFF WHITE',
+    price: '4,490',
+  },
+  {
+    id: 13,
+    icon: <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />,
+    image1: 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/63076572b7e1b2f44412442c/webp/17-600x800.jpg',
+    image2: 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/6307658ab7e1b2f444124729/webp/koovs-2_2346-304-600x800.jpg',
+    para1: 'ADD TO CART+',
+    para2: 'XS',
+    para3: 'S',
+    para4: 'M',
+    para5: '',
+    para6: 'XL',
+    heading: 'THE COUTURE CLUB',
+    subHeading: 'SIGNATURE REFLECTIVE REGULAR HOODIE',
+    price: '3,290',
+  },
+  {
+    id: 14,
+    icon: <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />,
+    image1: 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/63466c5f06697513a981600a/webp/koovs-2_2052-258-600x800.jpg',
+    image2: 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/63466c5f94259113879eaac2/webp/koovs-2_2051-257-600x800.jpg',
+    para1: 'ADD TO CART+',
+    para2: '',
+    para3: '',
+    para4: 'M',
+    para5: 'L',
+    para6: 'XL',
+    heading: 'THE COUTURE CLUB',
+    subHeading: 'SIGNATURE SEASON SLIM JOGGERS',
+    price: '2,290',
+  },
+  {
+    id: 15,
+    icon: <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />,
+    image1: 'https://cdn1.storehippo.com/s/609230a6463cd1593a6b70f1/62fbc81ea19fb6bee5b6300e/webp/copy-of-koovs-2_1757-600x800.jpg',
+    image2: 'https://cdn1.storehippo.com/s/609230a6463cd1593a6b70f1/6304a60435ddd6be8863ea0c/webp/koovs-2_1760-218-600x800.jpg',
+    para1: 'ADD TO CART+',
+    para2: 'XS',
+    para3: 'S',
+    para4: 'M',
+    para5: 'L',
+    para6: 'XL',
+    heading: 'THE COUTURE CLUB',
+    subHeading: 'BADGED LOGO BOYFRIEND JOGGERS',
+    price: '1,990',
+  },
+  {
+    id: 16,
+    icon: <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />,
+    image1: 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/63087748a21d1703ec8057f8/webp/23-600x800.jpg',
+    image2: 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/63087757a21d1703ec8059d4/webp/koovs-2_1902-238-600x800.jpg',
+    para1: 'ADD TO CART+',
+    para2: 'XS',
+    para3: 'S',
+    para4: 'M',
+    para5: 'L',
+    para6: 'XL',
+    heading: 'THE COUTURE CLUB',
+    subHeading: 'SIGNATURE SEASON CROPPED VOLUME HOODIE',
+    price: '3,090',
+  },
 ];
 
 export default function TheCoutureClub() {
@@ -133,45 +253,37 @@ export default function TheCoutureClub() {
       price,
     } = item;
     return (
-      <div className="col-span-3 py-10">
-        <div className="relative w-96 h-96  text-white overflow-hidden cursor-pointer transition-all duration-700 card" key={id}>
-          <div className="absolute inset-0  flex justify-center items-center  transition-all duration-100 delay-200 z-20 hover:opacity-0">
-            <div className="">
-              <div className="flex justify-end pr-4 relative top-8">
-                {icon}
-              </div>
-              <img
-                className="h-[300px] w-[300px]"
-                src={image1}
-                alt={heading}
-              />
-            </div>
+
+      <div className="group col-span-3" key={id}>
+
+        <div className="">
+          <div className="flex justify-end pr-6 relative top-8">
+            {icon}
           </div>
-          <div className="absolute inset-0  flex justify-center items-center  transition-all z-10 card-back">
-            <div className="relative">
-              <div className="flex justify-end pr-4 relative top-8">
-                {icon}
+
+          <img
+            src={image1}
+            alt="Image notfound"
+            onMouseOver={(e) => e.currentTarget.src = image2}
+            onMouseOut={(e) => e.currentTarget.src = image1}
+            className=" mx-auto my-auto transition ease-in-out duration-700 w-[300px]
+              h-[300px]"
+          />
+
+          <div className="opacity-0 group-hover:opacity-100 bg-gray-50 relative bottom-4 text-gray-800">
+            <div className="flex justify-between">
+              <div>
+                <p className="cursor-pointer">{para1}</p>
               </div>
-              <img
-                className="h-[300px] w-[300px]"
-                src={image2}
-                alt={heading}
-              />
-              <div className="bg-gray-50 relative bottom-4 text-gray-800">
-                <div className="flex justify-between">
-                  <div>
-                    <p className="cursor-pointer">{para1}</p>
-                  </div>
-                  <p className="cursor-pointer font-bold text-xs">{para2}</p>
-                  <p className="cursor-pointer font-bold text-xs">{para3}</p>
-                  <p className="cursor-pointer font-bold text-xs">{para4}</p>
-                  <p className="cursor-pointer font-bold text-xs">{para5}</p>
-                  <p className="cursor-pointer font-bold text-xs">{para6}</p>
-                </div>
-              </div>
+              <p className="cursor-pointer font-bold text-xs">{para2}</p>
+              <p className="cursor-pointer font-bold text-xs">{para3}</p>
+              <p className="cursor-pointer font-bold text-xs">{para4}</p>
+              <p className="cursor-pointer font-bold text-xs">{para5}</p>
+              <p className="cursor-pointer font-bold text-xs">{para6}</p>
             </div>
           </div>
         </div>
+
         <div className="py-1 cursor-pointer">
           <h3 className="text-gray-500 text-center cursor-pointer text-sm pl-10">
             {heading}
@@ -188,9 +300,9 @@ export default function TheCoutureClub() {
     );
   };
   return (
-    <div>
+    <div className="pl-12 pr-12 ">
       <div className="mx-auto mt-7">
-        <h1 className="text-2xl font-bold text-center mx-auto">THE COUTURE CLUB</h1>
+        <h1 className="text-2xl font-semibold text-center mx-auto">THE COUTURE CLUB</h1>
       </div>
       <div className="border-b border-gray-400 mx-24 mt-7" />
       <div className="flex justify-between mx-24 mt-4">
@@ -210,58 +322,35 @@ export default function TheCoutureClub() {
           <TheCoutureClubIcon Icon={BiDotsHorizontal} title="4" />
         </div>
       </div>
-      <div className="grid grid-cols-12 px-10">
+      <div className="grid grid-cols-12">
         {data.map((item) => (
           renderData(item)
         ))}
-        <div className="col-span-3 py-10">
-          <div className="relative w-96 h-96  text-white overflow-hidden cursor-pointer transition-all duration-700 card">
-            <div className="absolute inset-0  flex justify-center items-center  transition-all duration-100 delay-200 z-20 hover:opacity-0">
-              <div className="">
-                <div className="flex justify-end pr-4 relative top-8">
-                  <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />
-                </div>
-                <img
-                  className="h-[300px] w-[300px]"
-                  src="https://cdn4.storehippo.com/s/609230a6463cd1593a6b70f1/62f66209476422ef146688f2/webp/multilogographict-shirt-black1_800x-jpg-600x800.webp"
-                  alt="image"
-                />
-              </div>
+        {/* <div className="col-span-3 ">
+
+          <div className="">
+            <div className="flex justify-end pr-6 relative top-8">
+              <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />
             </div>
-            <div className="absolute inset-0  flex justify-center items-center  transition-all z-10 card-back">
-              <div className="relative">
-                <div className="flex justify-end pr-4 relative top-8">
-                  <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />
-                </div>
-                <img
-                  className="h-[300px] w-[300px]"
-                  src="https://cdn4.storehippo.com/s/609230a6463cd1593a6b70f1/62f662093ba2cdeee60a5a2c/webp/multilogographict-shirt-black8_800x-jpg-2-600x800.webp"
-                  alt="image"
-                />
-                <div className="bg-gray-50 relative bottom-4 text-gray-800">
-                  <div className="flex justify-between">
-                    <div>
-                      <p className="cursor-pointer">ADD TO CART+</p>
-                    </div>
-                    <p className="cursor-pointer font-bold text-xs">XS</p>
-                    <p className="cursor-pointer font-bold text-xs">S</p>
-                    <p className="cursor-pointer font-bold text-xs">M</p>
-                    <p className="cursor-pointer font-bold text-xs">L</p>
-                    <p className="cursor-pointer font-bold text-xs">XL</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <img
+              src="https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/62f66209476422ef146688f2/webp/multilogographict-shirt-black1_800x-jpg-600x800.webp"
+              alt="Image notfound"
+              onMouseOver={(e) => e.currentTarget.src = 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/62f662093ba2cdeee60a5a2c/webp/multilogographict-shirt-black8_800x-jpg-2-600x800.webp'}
+              onMouseOut={(e) => e.currentTarget.src = 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/62f66209476422ef146688f2/webp/multilogographict-shirt-black1_800x-jpg-600x800.webp'}
+              className=" mx-auto my-auto transition ease-in-out duration-700 w-[300px]
+              h-[300px] "
+            />
           </div>
-          <h3 className="text-gray-500 text-center cursor-pointer text-sm pl-10">
-            THE COUTURE CLUB
-          </h3>
-          <h3 className="text-center cursor-pointer text-sm pl-12">
-            MULTI LOGO GRAPHIC T-SHIRT - BLACK
-          </h3>
-          <h4 className="text-center cursor-pointer text-sm pl-10">₹3,490</h4>
-        </div>
+        </div> */}
       </div>
+      {/* <h3 className="text-gray-500 text-center cursor-pointer text-sm pl-10">
+        THE COUTURE CLUB
+      </h3>
+      <h3 className="text-center cursor-pointer text-sm pl-12">
+        MULTI LOGO GRAPHIC T-SHIRT - BLACK
+      </h3>
+      <h4 className="text-center cursor-pointer text-sm pl-10">₹3,490</h4> */}
     </div>
+
   );
 }

@@ -90,10 +90,12 @@ export default function FooterMenu() {
               <ArrowUpRightIcon className="h-4 mt-4" />
             </li>
           </Link>
-          <li className="flex">
-            <a href="#" className="hover:text-purple-500 text-sm mt-4">Public Desire</a>
-            <ArrowUpRightIcon className="h-4 mt-4" />
-          </li>
+          <Link href="/public-desire">
+            <li className="flex">
+              <a href="#" className="hover:text-purple-500 text-sm mt-4">Public Desire</a>
+              <ArrowUpRightIcon className="h-4 mt-4" />
+            </li>
+          </Link>
           <Link href="/arkk-copenhagen">
             <li className="flex">
               <a href="#" className="hover:text-purple-500 text-sm mt-4">Arkk Copenhagen</a>
