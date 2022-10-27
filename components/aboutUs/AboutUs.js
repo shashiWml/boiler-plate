@@ -54,7 +54,8 @@ export default function AboutUs() {
         <p className="dark:bg-black dark:text-white text-center text-lg font-extrabold mt-4">
           So come shop, learn, chill and do much more with us - the new KOOVS
         </p>
-        <div className="dark:bg-black dark:border-gray-50 border-t-2 border-gray-700 mt-28 py-14 mx-24" />
+        <div className="dark:bg-black dark:border-gray-50 border-t-2 border-gray-700
+        mt-28 py-14 mx-24" />
       </div>
     </div>
   );
