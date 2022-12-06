@@ -39,8 +39,9 @@ export default function AboutUs() {
           src="https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/62fb7cc0b584b058444cf216/webp/a656a150-930f-4a07-9566-42b9dcb95ea3-1366x1376.jpeg"
           alt="image"
         />
-        <div className="flex align-middle my-auto sm:">
-          <h1 className=" dark:bg-black dark:text-white text-2xl font-semibold mx-auto">About Us</h1>
+        <div className="flex align-middle my-auto">
+          <h1 className=" dark:bg-black dark:text-white text-2xl font-semibold mx-auto">
+            About Us</h1>
         </div>
       </div>
       <div className="mx-auto dark:bg-black">

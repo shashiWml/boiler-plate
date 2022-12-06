@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 export default function ContactUs() {
   const [enabled, setEnabled] = useState(false);
   return (
-    <div>
+    <div className="">
       <div className="py-16">
         <p className="text-xl text-blue-600">
           Normal Mode
@@ -37,7 +37,7 @@ export default function ContactUs() {
         />
         <div className="flex align-middle my-auto">
           <div className=" dark:bg-black dark:text-white space-y-2">
-            <h1 className="text-2xl font-semibold text-center text-4xl pb-20">Contact Us</h1>
+            <h1 className=" font-semibold text-center text-4xl pb-20">Contact Us</h1>
             <p className="font-semibold mx-auto align-middle my-auto text-4xl mt-4">
               Please leave your comments/feedback any time - care@koovs.com
             </p>

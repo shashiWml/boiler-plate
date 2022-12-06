@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <div className="relative">
 
-      <div className="bg-gray-100 items-center select-none flex justify-between px-14 border-b border-gray-800 hover:bg-gray-50 hover:border-none sticky top-0 z-50">
+      <div className="bg-gray-100 items-center select-none flex justify-between px-3 border-b border-gray-800 hover:bg-gray-50 hover:border-none sticky top-0 z-50">
         {
           nav ? (
             <button
@@ -43,7 +43,7 @@ export default function Header() {
           <ul className=" md:flex hidden space-x-2 items-center">
             <Men />
             <Women />
-           
+
             <li className="border-r-2 border-gray-400">
               <a href="#" className="mr-2 hover:border-b-2 border-purple-500 md:text-xs">
                 ARTIST EDIT

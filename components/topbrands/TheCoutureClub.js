@@ -299,8 +299,8 @@ export default function TheCoutureClub() {
                   alt="Image notfound"
                   onMouseOver={(e) => e.currentTarget.src = image2}
                   onMouseOut={(e) => e.currentTarget.src = image1}
-                  className=" mx-auto my-auto transition ease-in-out duration-700 w-[300px]
-                h-[300px]"
+                  className=" mx-auto my-auto transition ease-in-out duration-700
+                   w-[300px] h-[300px]"
                 />
 
                 <div className="opacity-0 group-hover:opacity-100 bg-gray-50 relative bottom-4 text-gray-800">
@@ -335,12 +335,12 @@ export default function TheCoutureClub() {
     );
   };
   return (
-    <div className="pl-12 pr-12 ">
+    <div className="md:pl-12 md:pr-12">
       <div className="mx-auto mt-7">
         <h1 className="text-2xl font-semibold text-center mx-auto">THE COUTURE CLUB</h1>
       </div>
-      <div className="border-b-2 border-gray-300 mx-10 mt-7" />
-      <div className="flex justify-between mx-24 mt-4">
+      <div className="border-b-2 border-gray-300 md:mx-10 mt-7" />
+      <div className="flex justify-between md:mx-24 mt-4">
         <div className="flex space-x-4">
           <TheCoutureClubIcon Icon={AdjustmentsHorizontalIcon} title="Filter" />
           <TheCoutureClubIcon Icon={ArrowDownIcon} title="Sort By" />
@@ -361,30 +361,7 @@ export default function TheCoutureClub() {
         {data.map((item) => (
           renderData(item)
         ))}
-        {/* <div className="col-span-3 ">
-
-          <div className="">
-            <div className="flex justify-end pr-6 relative top-8">
-              <BookmarkIcon className="h-5 w-5 stroke-black stroke-2" />
-            </div>
-            <img
-              src="https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/62f66209476422ef146688f2/webp/multilogographict-shirt-black1_800x-jpg-600x800.webp"
-              alt="Image notfound"
-              onMouseOver={(e) => e.currentTarget.src = 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/62f662093ba2cdeee60a5a2c/webp/multilogographict-shirt-black8_800x-jpg-2-600x800.webp'}
-              onMouseOut={(e) => e.currentTarget.src = 'https://cdn3.storehippo.com/s/609230a6463cd1593a6b70f1/62f66209476422ef146688f2/webp/multilogographict-shirt-black1_800x-jpg-600x800.webp'}
-              className=" mx-auto my-auto transition ease-in-out duration-700 w-[300px]
-              h-[300px] "
-            />
-          </div>
-        </div> */}
       </div>
-      {/* <h3 className="text-gray-500 text-center cursor-pointer text-sm pl-10">
-        THE COUTURE CLUB
-      </h3>
-      <h3 className="text-center cursor-pointer text-sm pl-12">
-        MULTI LOGO GRAPHIC T-SHIRT - BLACK
-      </h3>
-      <h4 className="text-center cursor-pointer text-sm pl-10">₹3,490</h4> */}
     </div>
 
   );

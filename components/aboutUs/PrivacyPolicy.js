@@ -45,7 +45,7 @@ export default function PrivacyPolicy() {
           </div>
         </div>
 
-        <div className="lg:mx-96 md:mx-48 sm:mx-24 w-full">
+        <div className="lg:mx-96 md:mx-48 mx-4 w-full">
           <h1 className="font-extrabold  text-justify mx-auto  mt-7 text-2xl">
             Introduction
           </h1>

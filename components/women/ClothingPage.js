@@ -24,21 +24,29 @@ const accordianContent = [
     id: 2,
     name: 'Delivery & Returns',
     description: '<ul className="list-disc ml-0 py-1 mr-24 leading-7"><li>All purchases are subjected to delivery fees.</li><li>    Standard delivery 4–9 Working Days</li><li>Orders are processed and delivered Monday–Friday (excluding public holidays).</li><li>Nike Members enjoy free returns.</li></ul>',
+    link: '',
+    linkText: '',
   },
   {
     id: 3,
     name: 'How This Was Made',
     description: '<ul className="list-disc ml-0 py-1 mr-28 leading-8"><li>The polyester in this 80% cotton/20% polyester fleece is made with 100% recycled polyester.</li><li>Our recycled polyester is made from plastic bottles which are cleaned, shredded into flakes, converted into pellets and then spun into a high-quality yarn. In addition to reducing waste, recycled poly lowers carbon emissions by up to 30% compared with virgin poly, and diverts an average of 1 billion plastic bottles annually from landfills and waterways.</li><li>Learn more about our <p className="cursor-pointer underline"> Move to Zero </p> journey towards zero carbon and zero waste, including how we are working to design products with sustainability in mind and help protect the future of where we live and play.</li></ul>',
+    link: '',
+    linkText: '',
   },
   {
     id: 4,
     name: 'Reviews(0)',
     description: '<ul className="list-disc ml-0 py-1 mr-16"><li>All purchases are subjected to delivery fees.</li><li>    Standard delivery 4–9 Working Days</li><li>Orders are processed and delivered Monday–Friday (excluding public holidays).</li><li>Nike Members enjoy free returns.</li></ul>',
+    link: '',
+    linkText: '',
   },
   {
     id: 5,
     name: 'Product Information',
     description: '<p className="ml-0 mr-28 leading-7 mt-4">Declaration of Importer: Direct import by the individual customer</p><p className="ml-0 mr-28 leading-7 mt-8">Marketed by: Nike Global Trading B.V. Singapore Branch, 30 Pasir Panjang Road, #10-31/32, Mapletree Business City, Singapore 117 440</p><p className="ml-0 mr-28 leading-7 mt-2">Net Quantity: 1 Top</p>',
+    link: '',
+    linkText: '',
   },
 ];
 
@@ -187,38 +195,58 @@ export default function ClothingPage() {
           </div>
           <div className="flex flex-wrap justify-between">
             <p className="text-left">Select Size</p>
-            <button type="button" className="text-right pr-10 text-gray-500 cursor-pointer" onClick={() => router.push('/')}>Size Guide</button>
+            <button type="button" className="text-right pr-10 text-gray-500 cursor-pointer" onClick={() => router.push('/womens-tops-asian-alpha')}>Size Guide</button>
           </div>
           <div className="flex space-x-2">
             <button
               type="button"
-              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16">
-              XS</button>
+              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16"
+            >
+              XS
+
+            </button>
             <button
               type="button"
-              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16">
-              S</button>
+              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16"
+            >
+              S
+
+            </button>
             <button
               type="button"
-              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16">
-              M</button>
+              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16"
+            >
+              M
+
+            </button>
+            
             <button
               type="button"
-              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16">
-              L</button>
+              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16"
+            >
+              L
+
+            </button>
             <button
               type="button"
-              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16">
-              XL</button>
+              className="hover:border-b hover:border-b-black hover:border-t hover:border-t-black hover:border-l hover:border-l-black hover:border-r hover:border-r-black rounded-md p-4 h-14 w-16"
+            >
+              XL
+
+            </button>
           </div>
           <div className="py-2 space-y-4">
             <button
               type="button"
-              className="bg-black text-white cursor-pointer rounded-full h-16 w-96 text-lg">
-              Add to Bag</button>
+              className="bg-black text-white cursor-pointer rounded-full h-16 w-96 text-lg"
+            >
+              Add to Bag
+
+            </button>
             <button
               type="button"
-              className="border cursor-pointer border-gray-300 hover:border-black rounded-full h-16 w-96 text-lg space-x-4">
+              className="border cursor-pointer border-gray-300 hover:border-black rounded-full h-16 w-96 text-lg space-x-4"
+            >
               <div className="flex justify-center">
                 <span>Favourite</span>
                 <span><HeartIcon className="h-5 w-5 right-2" /></span>
@@ -266,7 +294,7 @@ export default function ClothingPage() {
                       {parse(item.description)}
                       <Link href={item.link}>
                         <a>
-                          ●
+
                           {' '}
                           {item.linkText}
                         </a>

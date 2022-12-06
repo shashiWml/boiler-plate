@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function WomenClothingPopover() {
   return (
-    <div className="shadow-lg ring-1 ring-black ring-opacity-5 px-14 py-10 bg-gray-400">
+    <div className="shadow-lg ring-1 ring-black ring-opacity-5 px-14 py-10 bg-gray-400 mt-2">
       <div className="flex justify-between">
         <div>
           <img

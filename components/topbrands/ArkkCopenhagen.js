@@ -117,8 +117,8 @@ export default function ArkkCopenhagen() {
       <div className="mx-auto mt-7">
         <h1 className="text-2xl font-bold text-center mx-auto">ARKK COPENHAGEN</h1>
       </div>
-      <div className="border-b-2 border-gray-300 mx-14 mt-7" />
-      <div className="flex justify-between mx-24 mt-4">
+      <div className="border-b-2 border-gray-300 md:mx-14 mt-7" />
+      <div className="flex justify-between md:mx-24 mt-4">
         <div className="flex space-x-4">
           <ArkkCopenhagenIcon Icon={AdjustmentsHorizontalIcon} title="Filter" />
           <ArkkCopenhagenIcon Icon={ArrowDownIcon} title="Sort By" />

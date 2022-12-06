@@ -29,7 +29,7 @@ export default function Payments() {
           src="https://cdn1.storehippo.com/s/609230a6463cd1593a6b70f1/60d2fa9ca4cdda932e5270e9/webp/static-page-banner-1366x1376.jpg"
           alt="image"
         />
-        <div className="flex align-middle my-auto">
+        <div className="md:flex md:align-middle md:my-auto">
           <div className="space-y-2">
             <h1 className="text-3xl font-semibold text-center pb-20">Payments</h1>
             <p className="font-semibold mx-auto align-middle my-auto text-3xl">
@@ -37,14 +37,14 @@ export default function Payments() {
             </p>
           </div>
         </div>
-        <div className="lg:mx-96 md:mx-44 sm:mx-24 w-full">
+        <div className="lg:mx-96 md:mx-44 mx-4 w-full">
           <p className=" text-base mt-7 text-justify mx-auto ">
             koovs offers the following payment options: advance payment, payment by credit or debit card (Visa, Master Card, American Express). We reserve the right not to offer all payment options for all orders and will refer to current payment options. We only accept payment from accounts within India. You are responsible for any costs associated with your account transactions.
           </p>
           <p className="text-center text-base mt-2">
             By accepting these General Terms and Conditions, you are deemed to have given your consent to any invoices and credit invoices being sent exclusively to you in electronic form.
           </p>
-          <div className="border-t-2 border-gray-700 mt-28 my-14 w-[-1400px] " />
+          <div className="border-t-2 border-gray-700 mt-28 my-14 md:w-[-1400px] " />
         </div>
       </div>
     </div>

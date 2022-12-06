@@ -318,12 +318,12 @@ export default function KoovsSport() {
     );
   };
   return (
-    <div className="pl-12 pr-12">
+    <div className="md:pl-12 md:pr-12">
       <div className="mx-auto mt-7">
         <h1 className="text-2xl font-semibold text-center mx-auto">KOOVS SPORT</h1>
       </div>
-      <div className="border-b-2 border-gray-300 mx-10 mt-7" />
-      <div className="flex justify-between mx-24 mt-4">
+      <div className="border-b-2 border-gray-300 md:mx-10 mt-7" />
+      <div className="flex justify-between md:mx-24 mt-4">
         <div className="flex space-x-4">
           <KoovsSportIcon Icon={AdjustmentsHorizontalIcon} title="Filter" />
           <KoovsSportIcon Icon={ArrowDownIcon} title="Sort By" />

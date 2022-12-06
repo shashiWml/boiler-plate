@@ -4,21 +4,30 @@ import React from 'react';
 export default function ReturnsandExchange() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9">
+
       <img
         className="mt-9 lg:h-[700px] lg:w-[700px] md:h-[500px] md:w-[500px]"
         src="https://cdn1.storehippo.com/s/609230a6463cd1593a6b70f1/60d2fa52acb3f492bf82bfcb/webp/static-page-banner-1366x1376.jpg"
         alt="image"
       />
-      <div className="flex align-middle my-auto">
+      <div className="flex align-middle my-auto md:hidden">
         <div className="space-y-2">
           <h1 className="text-3xl font-semibold text-center lg:pb-24">Return/Exchange</h1>
-          <p className="font-semibold mx-28 align-middle my-auto mt-10 text-2xl">
+          <p className="font-semibold md:mx-28 mx-4 align-middle my-auto mt-10 text-2xl">
             koovs has a flat 7 days return policy to all our customers. You can conveniently return or exchange any item within 7 days from the date of receipt of the product.
           </p>
         </div>
       </div>
-      <div className="lg:mx-96 md:mx-48 sm:mx-24 w-full">
-        <h1 className="font-bold  text-justify mx-auto  mt-7 text-lg">
+      <div className=" md:flex md:align-middle md:my-auto hidden">
+        <div className="space-y-2">
+          <h1 className="text-3xl font-semibold text-center lg:pb-24">Return/Exchange</h1>
+          <p className="font-semibold md:mx-28 mx-4 align-middle my-auto mt-10 text-2xl">
+            koovs has a flat 7 days return policy to all our customers. You can conveniently return or exchange any item within 7 days from the date of receipt of the product.
+          </p>
+        </div>
+      </div>
+      <div className="lg:mx-96 md:mx-48 mx-4 ">
+        <h1 className="font-bold  text-justify mx-auto mt-7 text-lg">
           RETURNS/EXCHANGE
         </h1>
         <p className=" text-base mt-5 text-justify mx-auto ">

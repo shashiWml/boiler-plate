@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function MenClothingPopover() {
   return (
-    <div className="shadow-lg ring-1 ring-black ring-opacity-5 px-14 py-10 bg-gray-400">
+    <div className="shadow-lg ring-1 ring-black ring-opacity-5 px-14 py-10 bg-gray-400 mt-2">
       <div className="flex justify-between">
         <div>
           <img
@@ -26,9 +26,11 @@ export default function MenClothingPopover() {
           <p className="text-xs mb-3 hover:border-b hover:border-b-white">
             <a href="#"> Sweatshirts & Hoodies </a>
           </p>
-          <p className="text-xs mb-3 hover:border-b hover:border-b-white">
-            <a href="#">T-Shirt</a>
-          </p>
+          <Link href="/t-shirt">
+            <p className="text-xs mb-3 hover:border-b hover:border-b-white">
+              <a href="#">T-Shirt</a>
+            </p>
+          </Link>
           <p className="text-xs mb-3 hover:border-b hover:border-b-white">
             <a href="#">Shorts</a>
           </p>
@@ -79,7 +81,7 @@ export default function MenClothingPopover() {
           />
           <button
             type="button"
-            className="absolute top-[40%] right-[9%] rotate-90 text-white text-xs hover:bg-purple-600 border px-10 rounded-full py-2 border-purple-500"
+            className="absolute top-[40%] right-[9%] rotate-90 text-white text-xs hover:bg-purple-600 border px-16 rounded-full py-2 border-purple-500"
           >
             New In
           </button>

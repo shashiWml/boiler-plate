@@ -13,7 +13,7 @@ export default function Women() {
           </p>
         )}
       >
-        <div className="border-b border-gray-300 max-w-xl">
+        <div className="border-b border-gray-300 max-w-xl  px-3">
           <div className="flex justify-between ">
             <CommoPopover
               popoverClassName="absolute mt-4 w-screen"

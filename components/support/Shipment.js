@@ -17,7 +17,7 @@ export default function Shipment() {
           </p>
         </div>
       </div>
-      <div className="lg:mx-96 md:mx-44 sm:mx-24 w-full">
+      <div className="lg:mx-96 md:mx-44 mx-4 w-full">
         <h1 className="font-bold  text-justify mx-auto  mt-7 text-lg">
           SHIPPING POLICY
         </h1>
